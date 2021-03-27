@@ -1,7 +1,7 @@
 
 
 import os
-
+import json
 
 def organize_junk():
     for entry in os.scandir():
