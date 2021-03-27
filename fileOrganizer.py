@@ -1,5 +1,4 @@
-# Author: OMKAR PATHAK
-# This script helps to organize files
+
 
 import os
 from pathlib import Path
