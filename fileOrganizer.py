@@ -27,12 +27,6 @@ DIRECTORIES = {
 
 }
 
-
-FILE_FORMATS = {file_format: directory
-                for directory, file_formats in DIRECTORIES.items()
-                for file_format in file_formats}
-
-
 def organize_junk():
     for entry in os.scandir():
         if entry.is_dir():
